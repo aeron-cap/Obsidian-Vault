@@ -1,0 +1,64 @@
+**Name**: Ka-Budget
+**Logo**:
+**Stack**:
+- Frontend
+	- React Native
+- Backend
+	- Typescript 
+	- [[NestJS - Typescript - Node js]]
+	- [[Postgres]] & Redis
+	- [[Docker]]
+	- JWT/OAuth for Auth
+- Infra
+	- (Soon)
+**Pages**:
+- Login / Register Page
+	- Include JWT and OAuth for options
+- Home (Left Navbar)
+	- Total Net Worth
+		- Summary of all account totals
+	- Quick Add for Account
+		- Type of Accounts
+			- Wallets
+			- Digital Bank
+			- Traditional Bank
+			- Credit
+			- Investments
+			- Insurance (Soon)
+			- Assets (Soon)
+	- Transactions
+		- List of Transactions
+		- Quick Add
+- Add Transaction (Middle Navbar)
+	- Type
+		- Income
+		- Expense
+			- Date and Time
+			- Expense/Income Category
+			- Name of Transaction
+			- Notes
+			- Account to Deduct / Add from / to
+			- Record in which Budget (Selection) (Only for Expenses)
+			- Amount
+		- Installment
+			- Date
+			- Time
+			- Expense Category
+			- Name of Transaction
+			- Notes
+			- Total Amount
+			- Record in which Budget (Selection)
+			- Number of Payments
+			- Amount of Payment
+		- Transfer
+			- Date
+			- Time
+			- Source
+			- Destination
+			- Amount
+			- Fee
+			- Notes
+- Insights
+	- (Soon)
+**Backend:**
+- [[ERD]]

@@ -1,0 +1,5 @@
+- HTTP messages are the mechanism used to exchange data between a server and a client in the HTTP protocol.
+- 2 Types: `response` and `request`
+- Browsers, proxy, or web server uses software that are created to provide a reliable and efficient way of creating HTTP messages.
+- [[API]]s control how messages are created or transformed, configs for proxies or servers, or other interfaces.
+- 

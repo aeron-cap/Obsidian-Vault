@@ -1,0 +1,2 @@
+- Human readable internet addresses that translate to IP addresses for computer identification.
+- second-level domain ("example") and top-level domain (".com")

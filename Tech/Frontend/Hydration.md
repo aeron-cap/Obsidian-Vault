@@ -1,0 +1,1 @@
+- Client-side JS converts a web page that is **static** from the perspective of the web browser, delivered either through static rendering or server-side rendering, into a **dynamic** web page by attaching event handlers to the HTML elements in the DOM.

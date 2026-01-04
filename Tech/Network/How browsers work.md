@@ -1,0 +1,64 @@
+- DNS Lookup
+	- `https://example.com` is fulfilled by the DNS server to return an IP address of the URL provided.
+	- Only need to be done per hostname for a page load.
+- TCP Handshake
+	- Transmission Control Protocol
+	- Three-way handshake (SYN-SYN+ACK-ACK)
+	- Four way to terminate the connection FIN
+- TLS Negotiation
+	- For secure connections established over HTTPS, another "handshake" is required.
+	- Transport Layer Security or (SSL - Secure Sockets Layer)
+	- Prevent tampering with and eavesdropping on email, web browsing, messaging, and other protocols.
+	- All modern browsers support TLS protocol, requiring the server to provide a valid digital certificate confirming its identity in order to establish a secure connection.
+- Response
+	- Once a connection to a web server is established, the browser send an initial HTTP `GET` request on behalf of the user.
+	- TTFB - Time to first byte is the time between when the user made the request and the receipt of this first packet of HTML.
+		- Usually 14KB.
+- Congestion Control / TCP slow start
+	- TCP slow start
+		- algorithm that helps discover the available network bandwidth for packet transfer, and balance transmission speed according to the network's capabilities.
+	- The number of segments to be sent is controlled by the value of the congestion window (CWND), which can be set to 1, 2, 4, or 10 MSS (MSS is 1500 bytes over Ethernet protocol). Upon of which the client must send an ACK.
+	- If an ACK is received, the CWND value will double, if not then halved.
+- Parsing
+	- Once data is received by the browser, parsing begins.
+	- Turning data it received into the [[DOM]] and CSSOM.
+	- DOM is exposed and can be manipulated by JS through various APIs.
+	- HTML, CSS, and JavaScript have to be parsed before anything.
+- Building the DOM tree
+	- **First** step is processing the HTML markup and building the DOM tree.
+	- HTML parsing involves tokenization.
+	- DOM tree describes the content of the document.
+	- `<html>` element is the first element and root node of the document tree.
+- Preload scanner
+	- While the browser builds the DOM tree, this process occupies the main thread. As this happens, the preload scanner will parse through the content available and request high-priority resources like CSS, JavaScript, and web fonts.
+	- It will retrieve the resources in the background so that by the time the main HTML parser reaches the requested assets, they may already be in flight or have already been downloaded.
+- Building the CSSOM tree
+	- **Second** step in the critical rendering path.
+	- DOM and CSSOM are independent data structures.
+	- Generally, the total time to create the CSSOM is generally less than the time it takes for one DNS lookup.
+- Other processes
+	- JavaScript compilation
+		- while CSSDOM is being created, JavaScript files are downloading.
+		- JS is parsed, compiled and interpreted.
+		- Most code is interpreted on the main thread, but there are exceptions.
+	- Building the accessibility tree
+		- assistive device use to parse and interpret content.
+		- AOM - Accessibility object model is like a semantic version the DOM.
+- Render
+	- Steps include style, layout, pain, and in some cases compositing.
+	- In some cases, content can be moved to its own layer, improving performance by painting portions, pf the screen on the GPU, instead of the CPU.
+- Style
+	- **Third** step in the critical rendering path. Combining the DOM and CSSOM into a render tree.
+- Layout
+	- **Fourth** step int the critical rendering path is running layout on the render tree to compute the geometry of each node.
+	- The process by which the dimensions and location of all the nodes in the render tree are determined, plus the size and position of each object on the page.
+		- *Relfow* is any subsequent size and position determination of any part of the page or the entire document.
+- Paint
+	- **Last** step in the critical rendering path is painting individual nodes in the screen.
+	- First meaningful paint is the first occurrence of which.
+- Compositing
+	- when sections of the document are drawn in different layers, overlapping each other, compositing is necessary to ensure they are drawn to the screen int he right order.
+- Interactivity
+	- Once the main thread is done painting the page, it is not yet finished.
+	- `onLoad` event fires if the load includes JavaScript.
+	- Time to Interactive (TTI) is the measurement of how long it took from that first request which lead to the DNS lookup and TCP connection to when the page is interactive after the First contentful paint.

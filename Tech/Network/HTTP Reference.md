@@ -1,0 +1,4 @@
+- Hypertext Transfer Protocol
+- Let the client and the server pass additional information with a message in a request or response.
+- In HTTP/2 and above, headers are displayed in lowercase when viewed in developer tools (`accept: */*`) and prefixed with a colon for a special group of pseudo-headers (:status: 200).
+- 

@@ -1,0 +1,6 @@
+- Application programming interface
+- connection between computers or between computer programs.
+- type of software interface, offering a service to other pieces of software.
+- **API specification** is what we call a document or standard that describes how to  build such a connection.
+- A computer that meets these standards are said to implement or expose an API.
+- Hide internal details of how a system works, exposing only those parts a programmer will find useful.

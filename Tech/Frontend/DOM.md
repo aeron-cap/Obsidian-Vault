@@ -1,0 +1,3 @@
+- Document Object Model
+- Cross-platform and language-independent API that treats an HTML or XML document as a tress structure wherein each node is an object representing a part of the document.
+- DOM Tree describes the content of the document.

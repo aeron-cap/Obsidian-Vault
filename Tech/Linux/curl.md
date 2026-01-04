@@ -1,0 +1,64 @@
+- used in command lines or scripts to transfer data using URLs.
+- **libcurl**, used in cars, tvs, routers, printers, audio equipment, mobile phones, tablets, medical devices, settop boxes, computer games, media platers and is the Internet Transfer engine for countless software applications.
+- Supports:
+	- Protocols
+	- Proxies
+	- HTTP
+	- FTP
+	- SCP + SFTP
+	- TLS
+	- QUIC
+	- Auth
+	- HTTP compression
+	- Name resolving
+	- Connection
+	- Transfers
+	- [[URL]]
+	- Output
+- **[[URL]]**
+	- without a protocol, curl guesses what we want based on the often-used hostname prefixes, but defaults to HTTP.
+	- attempts to reuse connections when doing multiple transfers, so that getting many files from the same server do not use multiple connects and setup handshakes. (can only be done for URLs specified for a single command line invocation.)
+- **Globbing**
+	- specify multiple URLs by writing lists using braces or ranges within brackets.
+	- `https://example.com/{one,true,three}.jpg` (list {})
+	- `ftp://ftp.example.com/file[1-100].txt` (range [])
+	- nested sequences are not supported, but we can use several ones next to each other.
+	- `https://example.com/file-[1-100:10].txt` (step :)
+	- we can switch it off with `--globoff`
+- **Variables**
+	- we can set variables by `--variable name=content` or `--variable name@file`
+	- option parameters exists using `{{name}}`
+	- we can access it by first importing them.
+	- Variable contents can be expanded in option parameters if the option name is prefixed with `--expand-`
+	- `--variable %name` - imports the variable called "name" but exists with an error if that env variable is not already set
+	- `--variable %name=content` or `--variable %name@content`
+	- ```
+	  --variable '%USER'
+	  --expand-url = "hhtps://example.com/api/{{USER}}/method"
+	  ```
+	- **trim** leading and trailing white space with it, which can output the contents as a JSON quoted string with "json", URL encode with "url", base4 with "b64", and base 64 decode with "64dec"
+	- ```
+	  --variable %USER
+	  --expand-variable fix@{{HOME}}/.secret
+	  --expand-data "{{fix:trim:url}}"
+	  hhtps://example.com/
+	  ```
+- **Output**
+	- If not told otherwise, curl writes the received data to stdout.
+	- curl does not understand the content it gets or writes.
+- **[Protocols](https://curl.se/docs/manpage.html)**
+- **Progress Meter**
+	- normally displays a progress meter during operations.
+	- for HTTP POST or PUT, `--output` or shell redirect (`>`)
+	- does not apply to FTP upload since it does not spit out any response data to the terminal
+	- `--progress-bar` or `--silent`
+- **Version**
+	- `curl https://curl.se/info`
+- **Options**
+	- start with one or two dashes
+	- single dash form of the options e.g. `-d` may be used without a space between it and its value.
+	- short versions that do not need any additional value can be used immediately next to each other, e.g. `-OLv`
+	- `no-` is boolean e.g. `--no-option`
+	- `--next` resets the parset state and you start again with a clean option state.
+	- the first argument that is exactly two dashes, marks the end of options, next args is treated as URL.
+	

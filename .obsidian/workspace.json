@@ -11,10 +11,14 @@
             "id": "619b2881b5b6546e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Current/Montra/Postgres.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Postgres"
             }
           }
         ]
@@ -140,8 +144,8 @@
                 "showSearch": false,
                 "searchQuery": ""
               },
-              "icon": "lucide-archive",
-              "title": "All properties"
+              "icon": "lucide-ghost",
+              "title": "all-properties"
             }
           },
           {
@@ -179,6 +183,15 @@
   },
   "active": "f48ec47eec43b8e6",
   "lastOpenFiles": [
+    "Untitled.canvas",
+    "Current/Montra/Postgres.md",
+    "2026-04-22.md",
+    "Untitled",
+    "Current/Montra/NestJS - Typescript - Node js.md",
+    "Current/Montra/Montra App Requirements.md",
+    "Current/Montra/Expo - React Native.md",
+    "Current/Montra/Docker.md",
+    "Current/Montra/ERD.md",
     "Tech/Network/URL.md",
     "Tech/Network/HTTP Reference.md",
     "Tech/Network/HTTP Message.md",
@@ -197,25 +210,16 @@
     "Tech/Backend/Serialization & Deserialization.md",
     "Tech/Backend/Security.md",
     "Tech/Backend/Scaling & Performance.md",
-    "Tech/Backend/Routing.md",
-    "Tech/Backend/REST Best Practices.md",
-    "Tech/Backend/Request Context.md",
-    "Tech/Backend/Realtime Backend Systems.md",
-    "Tech/Backend/OpenAPI Standard.md",
-    "Tech/Backend/Open API Standard.md",
-    "Tech/Backend/Middlewares.md",
-    "Tech/Backend/Logging, Monitoring, & Observability.md",
     "Tech/Network",
     "Tech/Linux",
     "Tech/General",
     "Tech/Frontend",
     "Tech/Backend",
     "Tech",
-    "Current/Learn Spring/Spring Framework/Pasted image 20251112223820.png",
-    "Current/Learn Spring/Spring Framework/Pasted image 20251027212249.png",
-    "Current/Learn Spring/Spring Framework",
-    "Current/Learn Spring",
-    "Current/Ka-Budget",
-    "Current"
+    "Current/Spring/Spring Framework/Pasted image 20251112223820.png",
+    "Current/Spring/Spring Framework/Pasted image 20251027212249.png",
+    "Current/Spring/Spring Framework",
+    "Current/Spring",
+    "Current/Montra"
   ]
 }

@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "31df7cf63ff545e4",
+    "id": "8cfe686933024cc1",
     "type": "split",
     "children": [
       {
-        "id": "22fa06b87df33b86",
+        "id": "cb9116d984ed123f",
         "type": "tabs",
         "children": [
           {
-            "id": "7197a485e10d4c7b",
+            "id": "619b2881b5b6546e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -17,22 +17,21 @@
               "title": "New tab"
             }
           }
-        ],
-        "stacked": true
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "95a4c8421f4de427",
+    "id": "281892bfd3af8203",
     "type": "split",
     "children": [
       {
-        "id": "6ab704e2ec9f3dde",
+        "id": "e89abed513014343",
         "type": "tabs",
         "children": [
           {
-            "id": "ed3a3decfea934c0",
+            "id": "f48ec47eec43b8e6",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -45,7 +44,7 @@
             }
           },
           {
-            "id": "6f6a6f1cd1d29df3",
+            "id": "6b8fe54933b2d464",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -62,7 +61,7 @@
             }
           },
           {
-            "id": "c219c332669a1a97",
+            "id": "04849589e8974e73",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -75,18 +74,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.50328826904297
+    "width": 300
   },
   "right": {
-    "id": "af6d504ffd14e24c",
+    "id": "4135651a10755f90",
     "type": "split",
     "children": [
       {
-        "id": "3e5827936b47fbba",
+        "id": "4a14336284e4a8a3",
         "type": "tabs",
         "children": [
           {
-            "id": "26222c2dab9f725e",
+            "id": "5d20523620688783",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -104,7 +103,7 @@
             }
           },
           {
-            "id": "995fb1a983f16ae5",
+            "id": "34ab89e1c1a2438c",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -117,7 +116,7 @@
             }
           },
           {
-            "id": "37d1ea7b9b4085bd",
+            "id": "b64b8ede5519c0ae",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -132,17 +131,32 @@
             }
           },
           {
-            "id": "3c0bd9a172ba3d37",
+            "id": "d583a80d86602f6b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "f399c484f0ffd1fd",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "Welcome.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Welcome"
             }
           }
         ]
@@ -163,47 +177,45 @@
       "bases:Create new base": false
     }
   },
-  "active": "7197a485e10d4c7b",
+  "active": "f48ec47eec43b8e6",
   "lastOpenFiles": [
-    "Tech/Untitled.md",
-    "Tech/Articles",
-    "Untitled.md",
-    "Current/Learn Spring/Spring Framework/The Spring Framework.md",
-    "Current/Learn Spring/Spring Framework/Exception Handling.md",
-    "Untitled.canvas",
-    "Untitled.base",
-    "Untitled 1.base",
+    "Tech/Network/URL.md",
+    "Tech/Network/HTTP Reference.md",
+    "Tech/Network/HTTP Message.md",
+    "Tech/Network/How browsers work.md",
+    "Tech/Network/Domain.md",
+    "Tech/Linux/grep.md",
+    "Tech/Linux/curl.md",
+    "Tech/General/API.md",
+    "Tech/Frontend/Rendering Patterns.md",
+    "Tech/Frontend/Hydration.md",
+    "Tech/Frontend/DOM.md",
     "Tech/Backend/Webhooks.md",
-    "Tech/Backend/12 factor App Principles.md",
-    "Tech/Backend/OpenAPI Standard.md",
-    "Tech/Backend/DevOps for Backend Engineers.md",
-    "Tech/Backend/Open API Standard.md",
-    "Tech/Backend/Testing & Code Quality.md",
-    "Tech/Backend/Realtime Backend Systems.md",
-    "Tech/Backend/Concurrency &  Parallelism.md",
-    "Tech/Backend/Untitled 1.md",
-    "Tech/Backend/Scaling & Performance.md",
-    "Tech/Backend/Security.md",
-    "Tech/Backend/Graceful Shutdown.md",
-    "Tech/Backend/Logging, Monitoring, & Observability.md",
-    "Tech/Backend/Config Management.md",
-    "Tech/Backend/Error handling.md",
-    "Tech/Backend/Elasticsearch.md",
+    "Tech/Backend/Validation & Transformation.md",
     "Tech/Backend/Transactional Emails.md",
-    "Tech/Backend/Caching.md",
-    "Tech/Backend/Business logic layer.md",
-    "Tech/Backend/Databases.md",
+    "Tech/Backend/Testing & Code Quality.md",
+    "Tech/Backend/Serialization & Deserialization.md",
+    "Tech/Backend/Security.md",
+    "Tech/Backend/Scaling & Performance.md",
+    "Tech/Backend/Routing.md",
     "Tech/Backend/REST Best Practices.md",
-    "Tech/Linux",
+    "Tech/Backend/Request Context.md",
+    "Tech/Backend/Realtime Backend Systems.md",
+    "Tech/Backend/OpenAPI Standard.md",
+    "Tech/Backend/Open API Standard.md",
+    "Tech/Backend/Middlewares.md",
+    "Tech/Backend/Logging, Monitoring, & Observability.md",
     "Tech/Network",
-    "Current",
-    "Tech/Hardware",
-    "Techterms/Embedded",
+    "Tech/Linux",
     "Tech/General",
-    "Tech/Infrastructure",
-    "Untitled 2.canvas",
-    "Untitled 1.canvas",
+    "Tech/Frontend",
+    "Tech/Backend",
+    "Tech",
+    "Current/Learn Spring/Spring Framework/Pasted image 20251112223820.png",
     "Current/Learn Spring/Spring Framework/Pasted image 20251027212249.png",
-    "Current/Learn Spring/Spring Framework/Pasted image 20251112223820.png"
+    "Current/Learn Spring/Spring Framework",
+    "Current/Learn Spring",
+    "Current/Ka-Budget",
+    "Current"
   ]
 }

@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "22fa06b87df33b86",
+        "id": "37f953c64dcd6f5c",
         "type": "tabs",
         "children": [
           {
-            "id": "7197a485e10d4c7b",
+            "id": "061ce614606b938c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Non Secret Notes/Home Server.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Home Server"
             }
           }
         ],
@@ -163,8 +167,23 @@
       "bases:Create new base": false
     }
   },
-  "active": "7197a485e10d4c7b",
+  "active": "061ce614606b938c",
   "lastOpenFiles": [
+    "Tech/Backend/Security.md",
+    "Non Secret Notes/Home Server.md",
+    "Non Secret Notes",
+    "Tech/Backend/Serialization & Deserialization.md",
+    "Tech/Backend/Scaling & Performance.md",
+    "Current/Montra/Postgres.md",
+    "Current/Montra/NestJS - Typescript - Node js.md",
+    "Current/Montra/ERD.md",
+    "Current/Montra/Montra App Requirements.md",
+    "Current/Montra/Docker.md",
+    "Current/Learn Spring/Spring Framework/OOP.md",
+    "Current/Learn Spring/Spring Framework/JDBC.md",
+    "Current/Learn Spring/Spring Framework/Threading.md",
+    "Current/Learn Spring/Spring Framework/Pasted image 20251112223820.png",
+    "Current/Learn Spring/Spring Framework/Pasted image 20251027212249.png",
     "Tech/Untitled.md",
     "Tech/Articles",
     "Untitled.md",
@@ -182,28 +201,14 @@
     "Tech/Backend/Realtime Backend Systems.md",
     "Tech/Backend/Concurrency &  Parallelism.md",
     "Tech/Backend/Untitled 1.md",
-    "Tech/Backend/Scaling & Performance.md",
-    "Tech/Backend/Security.md",
     "Tech/Backend/Graceful Shutdown.md",
-    "Tech/Backend/Logging, Monitoring, & Observability.md",
-    "Tech/Backend/Config Management.md",
-    "Tech/Backend/Error handling.md",
-    "Tech/Backend/Elasticsearch.md",
-    "Tech/Backend/Transactional Emails.md",
-    "Tech/Backend/Caching.md",
-    "Tech/Backend/Business logic layer.md",
-    "Tech/Backend/Databases.md",
-    "Tech/Backend/REST Best Practices.md",
     "Tech/Linux",
     "Tech/Network",
     "Current",
     "Tech/Hardware",
     "Techterms/Embedded",
     "Tech/General",
-    "Tech/Infrastructure",
     "Untitled 2.canvas",
-    "Untitled 1.canvas",
-    "Current/Learn Spring/Spring Framework/Pasted image 20251027212249.png",
-    "Current/Learn Spring/Spring Framework/Pasted image 20251112223820.png"
+    "Untitled 1.canvas"
   ]
 }

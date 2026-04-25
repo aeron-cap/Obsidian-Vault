@@ -7,5 +7,9 @@
   "baseFontSizeAction": true,
   "interfaceFontFamily": "",
   "nativeMenus": true,
+<<<<<<< HEAD
   "baseFontSize": 10
+=======
+  "baseFontSize": 15
+>>>>>>> 76287bb28d10585746f73fcaa0b3dd931609b35a
 }

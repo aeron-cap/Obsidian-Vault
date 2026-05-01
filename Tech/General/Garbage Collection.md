@@ -1,0 +1,13 @@
+- Form of memory management attempts to reclaim memory that has been allocated by a program, but is no longer referenced
+- John McCarthy around 1959
+- Automatic memory management
+- Similar techniques include
+	- stack allocation
+	- region inference
+	- memory ownership
+- Takes a significant portion of a program's total processing time and affects performance as a result
+- Resources that are not typically handled by GC but are by other modules such as **destructors**
+	- Network Sockets
+	- database handles
+	- windows
+	- file and device descriptors

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "eabcfb444824402d",
+        "id": "120e1a8d83d1ef43",
         "type": "tabs",
         "children": [
           {
-            "id": "6973e24de0dbd3f0",
+            "id": "f7b0394fc7b91a20",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Non Secret Notes/Home Server.md",
+                "file": "Current/Go/Ch4 - Functions and Tests.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home Server"
+              "title": "Ch4 - Functions and Tests"
             }
           }
         ],
@@ -79,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "af6d504ffd14e24c",
@@ -167,10 +168,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "6973e24de0dbd3f0",
+  "active": "f7b0394fc7b91a20",
   "lastOpenFiles": [
-    "Non Secret Notes/Home Server.md",
-    "Non Secret Notes",
+    "Current/Go/Ch3 - Conditionals.md",
+    "Current/Go/Ch4 - Functions and Tests.md",
+    "Current/Go/Ch2 - Constants.md",
+    "Current/Go/Ch1 - Variables.md",
+    "Pasted image 20260501110708.png",
+    "Tech/General/Garbage Collection.md",
+    "Current/Untitled.md",
+    "Current/Go",
+    "Other Notes/Home Server.md",
+    "Other Notes",
     "Current/Spring/Spring Framework/Threading.md",
     "Current/Spring/Spring Framework/The Spring Framework.md",
     "Current/Spring/Spring Framework/Pasted image 20251112223820.png",
@@ -196,17 +205,10 @@
     "Tech/Backend/HTTP Protocol.md",
     "Tech/Infrastructure/Google Cloud Platform (GCP)/Introduction.md",
     "Tech/Infrastructure/Google Cloud Platform (GCP)",
-    "Tech/Backend/Concurrency & Parallelism.md",
-    "Current/Ka-Budget/JWT and Refresh Tokens.md",
-    "Current/Ka-Budget/NestJS - Typescript - Node js.md",
-    "Tech/Backend/Webhooks.md",
-    "Tech/Backend/12 factor App Principles.md",
-    "Tech/Backend/OpenAPI Standard.md",
     "Tech/Linux",
     "Untitled.base",
     "Tech/Network",
     "Current",
-    "Tech/Hardware",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas",

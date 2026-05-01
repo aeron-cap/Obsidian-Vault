@@ -35,4 +35,22 @@ func function_name(x int) (y int, z, int) {
 - We can use functions as another functions arguments if they support them
 
 **Anonymous Functions**
-- 
+- Functions with no names
+- Can be used to create a quick closure
+
+**Defer**
+- Allows a function to be executed automatically just before its enclosing function returns
+- Used to clean up unused database connections, file handlers and the like
+- Multiple Defers are executed **last-in-first-out** (stack).
+
+**Block Scope**
+- Go is not function scope, its block scoped
+- Variables are only accessible inside its scope declaration `{ }`
+
+**Closure**
+- Function that references variables from outside its own function body
+
+**Currying**
+- Concept from functional programming
+- involves partial application of functions
+

@@ -1,5 +1,5 @@
 Linux Server Laptop Mac Address
-00:e0:4c:68:00:28
+c4:54:44:6b:22:a2
 ```bash
-wakeonlan 00:e0:4c:68:00:28
+wol c4:54:44:6b:22:a2
 ```

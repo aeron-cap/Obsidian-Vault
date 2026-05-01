@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "37f953c64dcd6f5c",
+        "id": "eabcfb444824402d",
         "type": "tabs",
         "children": [
           {
-            "id": "061ce614606b938c",
+            "id": "6973e24de0dbd3f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.50328826904297
+    "width": 200
   },
   "right": {
     "id": "af6d504ffd14e24c",
@@ -167,50 +167,50 @@
       "bases:Create new base": false
     }
   },
-  "active": "ed3a3decfea934c0",
+  "active": "6973e24de0dbd3f0",
   "lastOpenFiles": [
+    "Non Secret Notes/Home Server.md",
+    "Non Secret Notes",
     "Current/Spring/Spring Framework/Threading.md",
     "Current/Spring/Spring Framework/The Spring Framework.md",
     "Current/Spring/Spring Framework/Pasted image 20251112223820.png",
     "Current/Spring/Spring Framework/Pasted image 20251027212249.png",
-    "Current/Spring/Spring Framework/OOP.md",
     "Current/Spring/Spring Framework/Java.md",
+    "Current/Spring/Spring Framework/OOP.md",
     "Current/Spring/Spring Framework/JDBC.md",
     "Current/Spring/Spring Framework/Inversion of Control.md",
     "Current/Spring/Spring Framework/Exception Handling.md",
     "Current/Spring/Spring Framework",
     "Current/Spring",
-    "Tech/Backend/Security.md",
-    "Non Secret Notes/Home Server.md",
-    "Non Secret Notes",
-    "Tech/Backend/Serialization & Deserialization.md",
-    "Tech/Backend/Scaling & Performance.md",
     "Current/Montra/Postgres.md",
     "Current/Montra/NestJS - Typescript - Node js.md",
-    "Current/Montra/ERD.md",
     "Current/Montra/Montra App Requirements.md",
+    "Current/Montra/Expo - React Native.md",
     "Current/Montra/Docker.md",
-    "Current/Learn Spring/Spring Framework/OOP.md",
-    "Current/Learn Spring/Spring Framework/JDBC.md",
-    "Current/Learn Spring/Spring Framework/Threading.md",
-    "Current/Learn Spring/Spring Framework/Pasted image 20251112223820.png",
-    "Current/Learn Spring/Spring Framework/Pasted image 20251027212249.png",
-    "Tech/Untitled.md",
-    "Tech/Articles",
-    "Untitled.md",
-    "Current/Learn Spring/Spring Framework/The Spring Framework.md",
-    "Current/Learn Spring/Spring Framework/Exception Handling.md",
-    "Untitled.canvas",
-    "Untitled.base",
-    "Untitled 1.base",
+    "Current/Montra",
+    "Tech/Backend/Open API Standard.md",
+    "Tech/Backend/Concurrency &  Parallelism.md",
+    "Current/Ka-Budget/ERD.md",
+    "Magnetic.md",
+    "Current/Ka-Budget/Expo - React Native.md",
+    "Tech/Backend/HTTP Protocol.md",
+    "Tech/Infrastructure/Google Cloud Platform (GCP)/Introduction.md",
+    "Tech/Infrastructure/Google Cloud Platform (GCP)",
+    "Tech/Backend/Concurrency & Parallelism.md",
+    "Current/Ka-Budget/JWT and Refresh Tokens.md",
+    "Current/Ka-Budget/NestJS - Typescript - Node js.md",
     "Tech/Backend/Webhooks.md",
     "Tech/Backend/12 factor App Principles.md",
     "Tech/Backend/OpenAPI Standard.md",
     "Tech/Linux",
+    "Untitled.base",
     "Tech/Network",
     "Current",
     "Tech/Hardware",
     "Untitled 2.canvas",
-    "Untitled 1.canvas"
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "Current/Learn Spring/Spring Framework/Pasted image 20251027212249.png",
+    "Current/Learn Spring/Spring Framework/Pasted image 20251112223820.png"
   ]
 }

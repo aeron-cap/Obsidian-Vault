@@ -1,0 +1,2 @@
+- GCP is organized by Projects.
+- Every resource we create (database, server, etc.) must belong to a project.
